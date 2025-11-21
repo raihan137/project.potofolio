@@ -1,0 +1,112 @@
+.html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #333;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 1em;
+  gap: 1em;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.nav-photo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1em;
+  margin-left: auto;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.welcome {
+  text-align: center;
+  padding: 2em;
+}
+
+.banner {
+  background-color: #ccc;
+  height: 300px;
+  margin-top: 1em;
+}
+
+.headquarter {
+  text-align: center;
+  padding: 2em;
+}
+
+.cities {
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+}
+
+.city {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #eee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.portfolio {
+  text-align: center;
+  padding: 2em;
+}
+
+#previewFoto img {
+  max-width: 300px;
+  margin-top: 1em;
+  border-radius: 10px;
+}
+
+.message-us {
+  display: flex;
+  justify-content: space-around;
+  padding: 2em;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.output {
+  background-color: #f9f9f9;
+  padding: 1em;
+  border: 1px solid #ccc;
+}
+
+footer {
+  text-align: right;
+  padding: 1em;
+  background-color: #eee;
+}

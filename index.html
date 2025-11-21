@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Website</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <img src="revouu.png" alt="Foto Profil" class="nav-photo" />
+      <div class="logo">My Website</div>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#profile">Our Profile</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#message">Message Us</a></li>
+      </ul>
+    </nav>
+  </header>
+  <hr>
+
+  <section id="home" class="welcome">
+    <h1>Hi Raihan, Welcome To Website</h1>
+    <p>Ini adalah website latihan pertama.</p>
+    <div class="banner"></div>
+  </section>
+
+  <section id="profile" class="headquarter">
+    <h2>Our Headquarter</h2>
+    <hr>
+    <div class="cities">
+      <div class="city">Jakarta</div>
+      <div class="city">Bandung</div>
+      <div class="city">Sumbawa</div>
+    </div>
+  </section>
+
+  <section id="portfolio" class="portfolio">
+    <h2>Upload Foto Kamu</h2>
+    <hr>
+    <input type="file" id="uploadFoto" accept="image/*" />
+    <div id="previewFoto"></div>
+  </section>
+
+  <section id="message" class="message-us">
+    <form id="messageForm">
+      <label>Nama: <input type="text" id="nama" required /></label>
+      <label>Tanggal Lahir: <input type="date" id="tanggal" required /></label>
+      <label>Jenis Kelamin:
+        <input type="radio" name="gender" value="Laki-Laki" required /> Laki-Laki
+        <input type="radio" name="gender" value="Perempuan" /> Perempuan
+      </label>
+      <label>Pesan: <textarea id="pesan" required></textarea></label>
+      <button type="submit">Submit</button>
+    </form>
+
+    <div class="output">
+      <p id="currentTime"></p>
+      <p id="outputNama"></p>
+      <p id="outputGender"></p>
+      <p id="outputTanggal"></p>
+      <p id="outputPesan"></p>
+    </div>
+  </section>
+
+  <footer>
+    <p>Created By Revou</p>
+  </footer>
+<script src="script.js"></script>
+<script src="js/script.js"></script>
+<script src="js/message.js"></script>
+</body>
+</html>
